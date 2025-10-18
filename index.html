@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Humber Registration System Use Case</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Humber Registration System - Use Case Diagram</h1>
+    </header>
+
+    <main>
+        <div class="diagram">
+            <div class="actor" id="admin">Program Administrator</div>
+            <div class="usecase" id="view-courses">View Courses</div>
+            <div class="usecase" id="add-course">Add Course</div>
+            <div class="usecase" id="remove-course">Remove Course</div>
+            <div class="usecase" id="edit-course">Edit Course Info</div>
+
+            <div class="actor" id="student">Student</div>
+            <div class="usecase" id="student-view">View Courses</div>
+            <div class="usecase" id="student-add">Add Course</div>
+            <div class="usecase" id="student-drop">Drop Course</div>
+            <div class="usecase" id="student-enrolled">View Enrolled Courses</div>
+            <div class="usecase include" id="prereq">Verify Prerequisites</div>
+            <div class="usecase include" id="fees">Check Unpaid Fees</div>
+
+            <div class="actor" id="instructor">Instructor</div>
+            <div class="usecase" id="course-report">Print Course Reports</div>
+            <div class="usecase" id="student-report">Print Student Reports</div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
